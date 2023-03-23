@@ -9,11 +9,12 @@ class MenuPage extends StatelessWidget {
   MenuPage({Key? key}) : super(key: key);
 
   List<Food> food = [
-    Food(name: 'Burger', img: 'Burger.png', price: 5),
-    Food(name: 'Chicken', img: 'Chicken.png', price: 6),
-    Food(name: 'Lagmon', img: 'Lagmon.png', price: 2),
-    Food(name: 'Pizza', img: 'Pizza.png', price: 10),
-    Food(name: 'Somsa', img: 'Somsa.png', price: 1),
+    Food(name: 'Burger', img: 'Burger.png', price: 5, info: ""),
+    Food(name: 'Chicken', img: 'Chicken.png', price: 6, info: ""),
+    Food(name: 'Lagmon', img: 'Lagmon.png', price: 4, info: ""),
+    Food(name: 'Pizza', img: 'Pizza.png', price: 10, info: ""),
+    Food(name: 'Somsa', img: 'Somsa.png', price: 5, info: ""),
+    Food(name: "Sharingan", img: "Rasingan.jpg", price: 999,info: "")
   ];
 
   @override
